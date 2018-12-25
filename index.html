@@ -57,8 +57,17 @@
           <li class="nav-item">
             <a href="#" class="nav-link">Home</a>
           </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Products</a>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+              Products
+            </a>
+            <div class="dropdown-menu">
+              <div class="dropdown-item">
+                <div class="products-display">
+
+                </div>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Contact</a>
@@ -73,6 +82,7 @@
             <a href="#" class="nav-link btn btn-outline-link border dropdown-toggle" data-toggle="dropdown">
               <i class="fas fa-user-plus"></i> Sign Up
             </a>
+            
             <ul class="dropdown-menu dropdown-menu-right">
               <li class="dropdown-item">
                 <a href="#" class="item-one">
@@ -85,7 +95,7 @@
             <a href="#" class="nav-link btn btn-outline-link border dropdown-toggle" data-toggle="dropdown">
               <i class="fas fa-shopping-cart"></i> Cart
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu dropdown-menu-right">
               <li class="dropdown-item">
                 <a href="#" class="item-one">
                   <i class="fas fa-cart-arrow-down"></i> Item One
@@ -98,6 +108,143 @@
     </div>
   </nav>
 
+  <section id="slide-display-section">
+    <div class="slide-display-inner">
+      <div class="row">
+        <div class="col-md-9 carousel-display">
+          <div class="dark-overlay">
+            <div class="carousel slide" data-ride="carousel" id="blog-carousel-display">
+              <ul class="carousel-indicators">
+                <li class="active" data-target="#blog-carousel-display" data-slide-to="0"></li>
+                <li data-target="#blog-carousel-display" data-slide-to="1"></li>
+                <li data-target="#blog-carousel-display" data-slide-to="2"></li>
+                <li data-target="#blog-carousel-display" data-slide-to="3"></li>
+              </ul>
+
+              <div class="carousel-inner">
+                <div class="carousel-item blog-image-one active">
+
+                <div class="carousel-caption text-white text-left">
+                  <div class="row">
+                    <div class="col-md-2 number-display">
+                      <h3 class="display-1">
+                        #1
+                      </h3>
+                    </div>
+                    <div class="col-md-10">
+                      <h3 class="display-4 text-capitalize">walking in the park</h3>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione deleniti praesentium possimus voluptatem error distinctio hic quam! Assumenda, voluptates.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="carousel-item blog-image-two">
+
+                  <div class="carousel-caption text-white text-left">
+                    <div class="row">
+                      <div class="col-md-2 number-display">
+                        <h3 class="display-1">
+                          #2
+                        </h3>
+                      </div>
+                      <div class="col-md-10">
+                        <h3 class="display-4 text-capitalize">walking in the park</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione deleniti praesentium possimus voluptatem error distinctio hic quam! Assumenda, voluptates.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item blog-image-three">
+
+                  <div class="carousel-caption text-white text-left">
+                    <div class="row">
+                      <div class="col-md-2 number-display">
+                        <h3 class="display-1">
+                          #3
+                        </h3>
+                      </div>
+                      <div class="col-md-10">
+                        <h3 class="display-4 text-capitalize">walking in the park</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione deleniti praesentium possimus voluptatem error distinctio hic quam! Assumenda, voluptates.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item blog-image-four">
+
+                  <div class="carousel-caption text-white text-left">
+                    <div class="row">
+                      <div class="col-md-2 number-display">
+                        <h3 class="display-1">
+                          #4
+                        </h3>
+                      </div>
+                      <div class="col-md-10">
+                        <h3 class="display-4 text-capitalize">walking in the park</h3>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ratione deleniti praesentium possimus voluptatem error distinctio hic quam! Assumenda, voluptates.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-none d-lg-block trending-news">
+          <div class="d-flex flex-column text-left">
+              <h3 class="display-5 text-uppercase border-bottom py-2 text-center">trending news</h3>
+              <p>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fugiat!
+                </a>
+              </p>
+              <p>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fugiat!
+                </a>
+              </p>
+              <p>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fugiat!
+                </a>
+              </p>
+              <p>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fugiat!
+                </a>
+              </p>
+              <p>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fugiat!
+                </a>
+              </p>
+              <p>
+                <a href="#">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, fugiat!
+                </a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="triangle-section">
+    <div class="triangle-section-inner">
+      <div class="arrow-up"></div>
+      <div class="arrow-down"></div>
+      <div class="arrow-left"></div>
+      <div class="arrow-right"></div>
+    </div>
+  </section>
     <!--Scripts-->
     <!--Bootstrap and JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
