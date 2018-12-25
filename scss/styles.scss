@@ -8,3 +8,9 @@ $color-seven: "#f5f5f5";
 $color-eight: "#ced4da";
 $color-nine: "#DCDCDC";
 $color-ten: "#fff";
+$color-eleven: "#191970";
+
+.navbar{
+  background: $color-eleven !important;
+  border-bottom: $color-one 3px solid;
+}
