@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Custom Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <title>AlmasParlour | Home</title>
+  </head>
+  <body>
+  <header id="header-section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="clear-fix">
+            <span class="float-left">
+              <a href="https://facebook.com" title="Facebook" target="_blank">
+                  <i class="fab fa-facebook-f pr-1"></i>
+              </a>
+              <a href="https://twitter.com" title="Twitter" target="_blank">
+                  <i class="fab fa-twitter pr-1"></i>
+              </a>
+              <a href="https://pinterest.com" title="Pinterest" target="_blank">
+                  <i class="fab fa-pinterest-p pr-1"></i>
+              </a>
+              <a href="https://instagram.com" title="Instagram" target="_blank">
+                  <i class="fab fa-instagram pr-1"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top py-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">AlmasParlour</a>
+
+      <div class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="fas fa-sign-in-alt"></i> Log In
+            </a>
+          </li>
+          <li class="nav-item border-right">
+            <a href="#" class="nav-link">
+              <i class="fas fa-user-plus"></i> Sign Up
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!--Scripts-->
+    <!--Bootstrap and JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!--Custom Script-->
+    <script>
+        //get current year
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+</html>
